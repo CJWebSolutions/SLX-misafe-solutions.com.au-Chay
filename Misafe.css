@@ -1,0 +1,165 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/*----------------------------------------------------------------
+	Branding Colour
+----------------------------------------------------------------*/
+h2 {
+    line-height: 45px;
+	font-size: 40px;
+}
+h1, h2, h3, body, ul li{
+    color: #222;
+}
+#banner h1, #banner p{
+    text-shadow: 0 0.075em 0.075em rgba(0, 0, 0, 0.5);}
+#services p, #banner h1, #banner p, #contact h2, #contact p, #contact .formbuilder-form .row label{
+    color: #fff;
+}
+ #header2a:before{
+ 	color: #f7941e;
+ }
+#header2a a,header span, #header2b a,header a:hover, #content .formbuilder-form .row label {
+	color: #243841;
+}
+#services h3 {
+    color: #f7941e;
+}
+h3, h2, #services h3{
+    font-weight: 600;
+}
+.formbuilder-form .row label{
+	font-weight:400;
+}
+ h2, h3, h4, .btn, .formbuilder-form input#submit-form,.formbuilder-form input#submit-form:hover, .formbuilder-form input#submit-form:focus, .formbuilder-form input#submit-form:active, .open>.dropdown-toggle.btn , #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:focus, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:active, .open>.dropdown-toggle.btn {
+    text-transform: uppercase;}
+#header2b a, table a,.btn, .btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn, .formbuilder-form input#submit-form,.formbuilder-form input#submit-form:hover, .formbuilder-form input#submit-form:focus, .formbuilder-form input#submit-form.active, .open>.dropdown-toggle.btn , #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form, .formbuilder-form input#submit-form:hover, .formbuilder-form input#submit-form:focus, .formbuilder-form input#submit-form:active, .formbuilder-form input#submit-form.active, .open>.dropdown-toggle.btn, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:focus, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:active, .open>.dropdown-toggle.btn, #contact2f, #contact2e, .contact_detail a, .contact_detail a:hover, .contact_detail a:focus {
+    text-decoration: none;}
+    
+/*----------------------------------------------------------------
+- Form -*/
+.form, #quote_form_form, #contact_form_form {
+	border-radius: 5px;
+    background-color: transparent;}
+ #extraFormsContainer .modal-dialog{
+    border-radius: 5px;
+    background-color: #243841; }
+/*----------------------------------------------------------------
+- Buttons -*/
+.btn, .formbuilder-form input#submit-form, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form{
+    background-color: #f7931d;
+    color: #fff;
+    border-width: 2px;
+    border-color: #f7931d;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    text-shadow:none;
+    font-weight: 700;}
+@media (min-width: 711px) {
+.btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn, .formbuilder-form input#submit-form:hover, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover{
+    color:  #f7931d;
+    text-shadow:none;
+    background: #f5f5f5;
+    border:none;
+    font-weight: 700;
+    transition: all 200ms ease-in;
+    transform: scale(1.1);}
+}
+.btn{ 
+    width: 40%;
+    font-size: 20px;
+    padding: 15px 5px 15px 5px; 
+}
+/*----------------------------------------------------------------
+	Custom Styles
+----------------------------------------------------------------*/
+
+/*----------------------------------------------------------------
+- Font Family -*/
+h1, h2, h3, h4, #banner p {
+	font-family: 'Oswald', Arial, Helvetica, sans-serif;}
+.btn, .formbuilder-form input#submit-form, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;}
+/*----------------------------------------------------------------
+- Header -*/
+#header{
+    border-bottom: 5px solid #f7941e;
+    padding: 0px;
+}
+#header1 img{
+    padding-top:25px;
+}
+#header2b {
+    font-weight:400;
+    line-height:15px;
+}
+#header2a {
+    font-size:43px;
+}
+#header2a:before{
+    font-size:38px;
+}
+#header2{}   
+/*----------------------------------------------------------------
+- Banner -*/
+#banner h1 {
+    font-size: 60px;
+}
+#banner p {
+    font-size: 24px;
+	font-weight: 400;
+}
+.banner_cover {
+    opacity: 0.4;
+    background-color:#000;}
+#content {
+	padding: 50px 0 50px 0;
+}
+#banner1, #banner h1{
+    margin:0;
+    text-align:left;
+}
+/*----------------------------------------------------------------
+- Services -*/
+#service1,#service2,#service3,#service4{
+    transition: 0.2s 0.2s ease-out;
+    padding: 25px 10px 25px 10px;}
+#service1:hover,#service2:hover,#service3:hover,#service4:hover{
+    transform: scale(1.1);
+    background:rgba(255, 255, 255, 0.3);}
+
+/*----------------------------------------------------------------
+    Gallery*/
+
+/*----------------------------------------------------------------
+- Contact -*/
+
+
+/*----------------------------------------------------------------
+    Footer
+----------------------------------------------------------------*/
+footer *, footer a , footer {
+    color: #fff;}
+footer {
+    border-top:5px solid #f7941e;
+    background-color: #222;
+    padding: 25px 0 25px;}
+/*----------------------------------------------------------------
+	Hide Blocks
+----------------------------------------------------------------*/
+#gallery,#content2b,#contact1b,#contact2c,#contact2d,#contact2e,#contact2f,#contact2g{display:none;}
+@media (max-width: 991px) {  
+    #banner1, #banner h1{text-align: center;}
+}
+@media only screen and (max-width: 767px) and (min-width: 0px)  {  
+    #header {padding: 15px 0 20px 0;}
+    #header1 img{
+    	padding-top:0px;
+    	margin-bottom:-5px}
+    #service1:hover,#service2:hover,#service3:hover,#service4:hover{transform: scale(1.0);}
+}
+@media only screen and (max-width: 690px) and (min-width: 0px) {#banner h1 {font-size: 50px;}}
+@media (max-width: 600px) {.btn{width:100%;word-wrap: break-word;}}
+@media (min-width: 0px) {.btn {margin-top: 10px;}}
+@media (max-width: 767px) {#service3 {clear:left }} 
+
